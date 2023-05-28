@@ -25,15 +25,10 @@ $ npm install @mui/material @emotion/react @emotion/styled
 - [Project Name](#project-name)
   - [Prerequisites](#prerequisites)
   - [Table of contents](#table-of-contents)
-  - [Getting Started](#getting-started)
   - [Installation](#installation)
   - [Usage](#usage)
     - [Starting App](#starting-the-app)
     - [Running the App](#running-the-app)
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ## Installation
 
