@@ -1,0 +1,59 @@
+{
+  "name": "cruzhacks-audrey",
+  "version": "1.0.0",
+  "description": "CruzHacks Front-end Challenge",
+  "author": "Audrey Ostrom",
+  "license": "UNLICENSED",
+  "repository": "none",
+  "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@material/tooltip": "^14.0.0",
+    "@mui/material": "^5.13.2",
+    "material-ui-popup-state": "^5.0.8",
+    "react": "*",
+    "react-dom": "*"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "*",
+    "@testing-library/react": "*",
+    "@testing-library/user-event": "*",
+    "eslint-config-google": "*",
+    "eslint-plugin-react": "*",
+    "eslint-plugin-react-hooks": "*",
+    "react-scripts": "*"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "test": "react-scripts test --coverage --collectCoverageFrom=!src/index.js",
+    "lint": "eslint src/*.js"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest",
+      "google"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 13
+    },
+    "rules": {
+      "indent": [
+        "warn",
+        2
+      ]
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

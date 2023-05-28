@@ -1,0 +1,39 @@
+/* Your App styles go here */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap');
+
+* {
+   color: #E8F0FF;
+   font-family: "Roboto";
+   font-style: italic;
+   font-weight: 300;
+   text-align: center;
+   align-items: center;
+}
+
+body {
+   width: 100%;
+}
+html {
+   justify-content: center;
+   background-color: #061118;
+   display: flex;
+}
+
+.top-bar{
+   background-color: #061118;
+   width: 100%;
+   justify-content: space-between;
+}
+
+.lightbulb {
+   display: flex;
+   align-items: left;
+   margin-left:0 auto;
+   margin-right: auto;
+   text-align: left;
+   align-items: left;
+}
+
+.schedule-header {
+   font-size: 40px;
+}
